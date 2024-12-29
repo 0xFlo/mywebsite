@@ -1,0 +1,19 @@
+# Elixir/Phoenix specific
+/_build
+/deps
+/priv/static/assets
+/priv/repo
+*.beam
+*.ez
+.erlang.cookie
+
+# Node.js related (if using assets pipeline)
+node_modules/
+
+# Editor specific
+.vscode/
+.idea/
+.DS_Store
+
+# System files
+*.swp
