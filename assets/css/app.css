@@ -2,4 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* This file is for your main application CSS */
+.gradient-bg {
+  background: linear-gradient(180deg, #f9fafb 0%, #f3f4f6 100%);
+}
+.link-card:hover {
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
