@@ -89,6 +89,7 @@ defmodule MyappWeb do
       import Phoenix.HTML
       # Core UI components
       import MyappWeb.CoreComponents
+      import MyappWeb.NavComponent
 
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS
