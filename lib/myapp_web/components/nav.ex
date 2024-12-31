@@ -3,7 +3,7 @@ defmodule MyappWeb.Components.Nav do
   use Phoenix.Component
 
   attr :class, :string, default: nil
-  def header(assigns) do
+  def main_header(assigns) do
     ~H"""
     <header class={["bg-white", @class]}>
       <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
