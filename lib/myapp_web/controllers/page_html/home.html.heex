@@ -55,8 +55,8 @@
       Work with me
     </.button>
 
-    <!-- Links Grid -->
-    <div class="space-y-3">
+<!-- Links Grid -->
+    <div class="space-y-3 mb-6">
       <%= for {title, subtitle, href} <- [
         {"SEO Services", "Technical SEO & Content Strategy", "#services"},
         {"Case Studies", "Real client success stories", "#case-studies"},
@@ -77,6 +77,22 @@
           </div>
         </.link>
       <% end %>
+    </div>
+
+    <!-- About Section -->
+    <div class="bg-white p-6 rounded-xl border border-gray-200">
+      <h2 class="text-xl font-semibold text-gray-900 mb-4">About Me</h2>
+      <div class="prose prose-sm text-gray-600">
+        <p class="mb-4">
+          With over a decade of experience in SEO and digital growth, I help businesses achieve 
+          sustainable organic growth through data-driven strategies and technical optimization.
+        </p>
+        <p>
+          Based in Berlin, I work with clients globally, focusing on scalable SEO solutions 
+          that deliver measurable results. My approach combines technical expertise with 
+          creative content strategies to help your brand stand out in search results.
+        </p>
+      </div>
     </div>
   </main>
 </div>
