@@ -1,17 +1,21 @@
 <div class="gradient-bg min-h-screen">
   <main class="pt-12 px-4 max-w-lg mx-auto">
-    <!-- Profile Header -->
-    <.header class="text-center">
-      <!-- Default slot content -->
-      <div class="w-24 h-24 bg-gradient-to-tr from-purple-600 to-pink-500 rounded-full mx-auto mb-6 flex items-center justify-center">
-        <span class="text-2xl font-bold text-white">JS</span>
-      </div>
-      Florian S. Kluge
+<!-- Profile Header -->
+<.header class="text-center">
+  <!-- Replace the gradient div with an image -->
+  <div class="w-24 h-24 mx-auto mb-6">
+    <img 
+      src={~p"/images/profile.jpeg"} 
+      alt="Florian S. Kluge"
+      class="w-full h-full object-cover rounded-full"
+    />
+  </div>
+  Florian S. Kluge
 
-      <:subtitle>
-        SEO & Growth Strategist
-      </:subtitle>
-    </.header>
+  <:subtitle>
+    SEO & Growth Strategist
+  </:subtitle>
+</.header>
 
     <!-- Social Links (Using <.link>) -->
     <div class="flex justify-center gap-6 mb-8">
